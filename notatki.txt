@@ -1,2 +1,12 @@
 Od 11 minuty wytłumaczona śceżka url - co po kolei przeglądarka sprawdza jak się jej wpisze adres
 https://www.youtube.com/watch?v=a48xeeo5Vnk&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=3&t=660s&ab_channel=CoreySchafer
+
+Następne do obejrzenia: user profile and picture.
+https://www.youtube.com/watch?v=FdVuKt_iuSI&ab_channel=CoreySchafer
+Już możesz zacząć robić projekt z produktem!!!!!
+
+user.post_set.all() - pojazuje wszystkie posty stworzone przez uzytkownika
+user = User.objects.filter.(username='jacek).first
+
+Żeby posty pojawiały sie na sronie admina:
+admin.site.register(Post)   - w pliku admin
