@@ -10,3 +10,10 @@ user = User.objects.filter.(username='jacek).first
 
 Żeby posty pojawiały sie na sronie admina:
 admin.site.register(Post)   - w pliku admin
+
+ZMIENNE SRODOWISKOWE:
+1. ustaw zmienne srodowiskowe w zaawansowanych ustawieniach systemu
+2. jako hasło do maila podaj wygenerowane hasło do aplikacji
+3. zaciagnij zeminne srtodwoiskowe w ustawieniach aplkacji djagno
+
+Haslo123
